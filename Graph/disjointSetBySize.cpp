@@ -1,3 +1,7 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
 class DisjointSetBySize
 {
   
@@ -5,7 +9,7 @@ class DisjointSetBySize
   /* These are made public so that you can perform some oprations
     directly on them when needed */
   vector<int> parent, size;
-  Disjoint(int n) {
+  DisjointSetBySize(int n) {
       // initializing with n+1 size so that it can work even for the 1 based graphs too
       parent.resize(n+1);
       size.resize(n+1,0);
