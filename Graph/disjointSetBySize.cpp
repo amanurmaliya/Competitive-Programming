@@ -1,4 +1,4 @@
-class DisjointBySize
+class DisjointSetBySize
 {
   
   public:
